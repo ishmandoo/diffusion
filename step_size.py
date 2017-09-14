@@ -28,3 +28,7 @@ for i in range(10):
 
 
 print np.mean([part.getDisplacement() for part in parts])
+
+'''
+This seems to produce drift toward low viscosity
+'''

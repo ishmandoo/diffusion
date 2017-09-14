@@ -29,3 +29,5 @@ class Trap:
 		self.left_prob = left_prob
 		self.right_prob = right_prob
 		assert(left_prob + right_prob <= 1)
+	def __repr__(self):
+		return "pos %s, left prob %s, right prob %s" % (self.pos, self.left_prob, self.right_prob)
